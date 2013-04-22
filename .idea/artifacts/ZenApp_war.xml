@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="ZenApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ZenApp.war">
+      <element id="artifact" artifact-name="ZenApp:war exploded" />
+    </root>
+  </artifact>
+</component>
