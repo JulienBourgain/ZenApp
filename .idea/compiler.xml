@@ -25,6 +25,9 @@
         <module name="ZenApp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ZenApp" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
