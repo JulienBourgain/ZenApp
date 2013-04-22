@@ -16,7 +16,7 @@
 
     <properties>
         <spring.version>3.2.0.RELEASE</spring.version>
-        <version.hibernate>3.6.10.Final</version.hibernate>
+        <version.hibernate>4.2.0.Final</version.hibernate>
             <version.javassist>3.12.1.GA</version.javassist>
             <version.jasypt>1.9.0</version.jasypt>
         <version.postgresql>9.2-1002-jdbc4</version.postgresql>
@@ -71,6 +71,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <version>${version.junit}</version>
             <scope>test</scope>
         </dependency>
 
@@ -104,7 +105,7 @@
         <!-- ========== Hibernate ========== -->
         <dependency>
             <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager`</artifactId>
+            <artifactId>hibernate-core</artifactId>
             <version>${version.hibernate}</version>
         </dependency>
         <dependency>
