@@ -22,4 +22,6 @@ public class User {
     String commentaires;
     Agence agence;
 //    Avatar avatar;
+
+
 }
