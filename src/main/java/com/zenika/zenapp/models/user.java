@@ -4,6 +4,7 @@ package com.zenika.zenapp.models;
  * @author Julien Bourgain
  */
 public class User {
+    int id;
     String username;
     String password;
     boolean enabled;
@@ -22,6 +23,14 @@ public class User {
     String commentaires;
     Agence agence;
 //    Avatar avatar;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
 
     public String getUsername() {
