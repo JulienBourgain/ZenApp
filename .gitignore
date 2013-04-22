@@ -15,3 +15,7 @@ target/
 *.DS_Store
 
 .idea/workspace.xml
+
+*.iml
+
+.idea/artifacts/ZenApp_war_exploded.xml
