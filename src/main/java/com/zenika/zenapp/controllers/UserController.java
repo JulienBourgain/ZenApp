@@ -5,6 +5,7 @@ import com.zenika.zenapp.dao.UserDaoImpl;
 import com.zenika.zenapp.models.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -16,6 +17,11 @@ import java.util.List;
 @Controller
 public class UserController {
     UserDao userDao = new UserDaoImpl();
+
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String list(Model model) {
+        return "hello";
+    }
 
     @RequestMapping(value = "/user", method = RequestMethod.GET, produces = "application/json")
     public @ResponseBody List<User> list() {
