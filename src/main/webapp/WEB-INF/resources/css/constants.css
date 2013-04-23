@@ -1,0 +1,82 @@
+/*
+ ================================================================================
+                                VARIABLES & CLASSES
+ ================================================================================
+*/
+
+#colors {
+    color: #942723;
+    color: #AC223E;
+    color: #AC3421;
+    color: #21AC4B;
+    color: #2183AC;
+    color: #676767;
+    color: #000000;
+    color: #668; /* Titres */
+    color: #DDD; /* Bordures */
+    color: #EEE; /* Fond des boîtes */
+}
+
+@font-face
+{
+    font-family: 'LeagueGothic'
+;
+    font-weight: normal
+;
+    src: url('../font/LeagueGothic.otf') format('opentype')
+;
+}
+
+@font-face
+{
+    font-family: 'Prociono'
+;
+    font-weight: normal
+;
+    src: url('../font/Prociono.otf') format('opentype')
+;
+}
+
+@font-face
+{
+    font-family: 'Junction'
+;
+    font-weight: normal
+;
+    src: url('../font/Junction.otf') format('opentype')
+;
+}
+
+@font-face
+{
+    font-family: 'GoudyBookletter'
+;
+    font-weight: normal
+;
+    src: url('../font/GoudyBookletter.otf') format('opentype')
+;
+}
+
+@font-face
+{
+    font-family: 'Bebas'
+;
+    font-weight: normal
+;
+    font-style: normal
+;
+    src: url('../font/Bebas.ttf') format('opentype')
+;
+}
+
+@font-face
+{
+    font-family: 'Cuprum'
+;
+    font-weight: normal
+;
+    font-style: normal
+;
+    src: url('../font/Cuprum.ttf') format('opentype')
+;
+}

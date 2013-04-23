@@ -1,0 +1,538 @@
+/*
+ ================================================================================
+                                COMMON
+ ================================================================================
+*/
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*
+ ================================================================================
+                                HEADERS
+ ================================================================================
+*/
+
+h1 {
+    font-family: 'Cuprum', Georgia, serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #942723;
+    background: #EEE;
+    margin-bottom: 1em;
+    margin-top: -2px;
+    border: solid 1px #DDD;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+h1.title-crud {
+    background: #EEE url("../images/icon/data.png") 0.5em center no-repeat;
+    padding-left: 64px;
+}
+
+h2 {
+    color: #668;
+    font-size: 2em;
+    padding: 0.5em 0 0;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1em;
+    padding: 0.75em 0 0 0;
+    margin-bottom: 0.75em;
+}
+
+/*
+ ================================================================================
+                                TABLES
+ ================================================================================
+*/
+
+table {
+    border-collapse: collapse;
+}
+
+tr.even {
+    background-color: #DDD;
+}
+
+tr.odd {
+    background-color: #EEE;
+}
+
+th {
+
+}
+
+td {
+    vertical-align: top;
+}
+
+/* ==================== Data table ==================== */
+
+table.dataTable {
+    width: 100%;
+    overflow: hidden;
+    border: solid 1px #DDD;
+}
+
+table.dataTable tr {
+    vertical-align: top;
+    text-align: left;
+}
+
+table.dataTable th,
+table.dataTable tr.navigation td {
+    padding: 0.4em 1em 0.1em 1em;
+    background-color: #668;
+    color: #FFF;
+    border: solid 1px #668;
+}
+
+table.dataTable tr.navigation a,
+table.dataTable tr.navigation em {
+    display: inline;
+    width: 1.5em;
+    padding: 0 5px;
+    border: solid 1px #CCC;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    background-color: #EEE;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+table.dataTable tr.navigation em {
+    background-color: #DDD;
+    font-weight: normal;
+    font-style: italic;
+}
+
+table.dataTable th a span {
+    color: #FFF;
+}
+
+table.dataTable td {
+    padding: 0.4em 1em 0.1em 1em;
+}
+
+table.dataTable td span {
+}
+
+
+/* ==================== Layout table ==================== */
+
+table.layout {
+    border: none;
+    margin-bottom: 3em;
+}
+
+table.layout td.label {
+    padding-right: 20px;
+    text-align: right;
+    font-weight: bold;
+}
+
+table.layout tr {
+    height: 2em;
+}
+
+table.layout td.label:after {
+    content: ":";
+}
+
+table.layout td.value {
+
+}
+
+/* ==================== Diplay table workaround ==================== */
+
+table.flagColToHide th.hideIfFlag, table.flagColToHide td.hideIfFlag {
+	display:none;
+}
+/*
+ ================================================================================
+                                LINKS
+ ================================================================================
+*/
+
+a, a:hover, a:active, a:visited {
+    color: #3366FF;
+    text-decoration: none;
+}
+
+/*
+ ================================================================================
+                                FORMS
+ ================================================================================
+*/
+
+.feedback ul {
+    padding: 10px;
+    padding-left: 44px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+	background-position: 10px center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+feedback.success ul {
+    background-color: #DFF2BF;
+    border: solid 1px #4F8A10;
+    color: #4F8A10;
+    background-image: url('../images/message/success.png');
+}
+feedback.info ul {
+    background-color: #BDE5F8;
+    border: solid 1px #00529B;
+    color: #00529B;
+    background-image: url('../images/message/info.png');
+}
+.feedback.warning ul {
+    background-color: #FEEFB3;
+    border: solid 1px #9F6000;
+    color: #9F6000;
+    background-image: url('../images/message/warning.png');
+}
+.feedback.error ul {
+    background-color: #FFCCCC;
+    border: solid 1px #D8000C;
+    color: #D8000C;
+    background-image: url('../images/message/error.png');
+}
+li.feedbackPanelERROR {
+	
+}
+
+.searchForm {
+    padding: 0.4em 1em 0.1em 1em;
+    background-color: #DDDDDD;
+}
+
+.hidden{
+	visibility: hidden;	
+}
+
+/*
+input {
+    margin: 0;
+    padding: 0;
+    height: 1.5em;
+}
+*/
+/*
+input[type="text"],
+select,
+textarea {
+    border: solid 1px #CCC;
+}
+*/
+/*
+input[type="submit"],
+button,
+a.button {
+    display: inline-block;
+    padding: 0.25em 1em;
+    border: solid 1px #CCC;
+    margin-right: 10px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    background: url("../images/gradient-EC.png") top left repeat-x;
+    font-weight: bold;
+    color: #668;
+    text-shadow: 0px 1px 1px #fff;
+    -moz-text-shadow: 0px 1px 1px #fff;
+    -webkit-text-shadow: 0px 1px 1px #fff;
+}
+*/
+
+a.button.small {
+	padding-left: 7px;
+	padding-right: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/*
+a.button:hover {
+    background: url("../images/gradient-FD.png") top left repeat-x;
+    box-shadow: -1px -1px 2px #CCC;
+    -moz-box-shadow: 1px 1px 1px #CCC;
+    -webkit-box-shadow: 1px 1px 1px #CCC;
+}
+*/
+
+a.button.csv span {
+	background: url("../images/action/csv.gif") center left no-repeat;
+	padding-top: 1px;
+	padding-left: 21px;
+}
+
+a.button.agreement span {
+	background: url("../images/action/agreement.png") center left no-repeat;
+	padding-top: 1px;
+	padding-left: 21px;
+}
+
+a.button.emargement span {
+	background: url("../images/action/emargement.png") center left no-repeat;
+	padding-top: 1px;
+	padding-left: 21px;
+}
+
+a.button.evaluation span {
+	background: url("../images/action/evaluation.png") center left no-repeat;
+	padding-top: 1px;
+	padding-left: 21px;
+}
+
+a.button.summary span {
+	background: url("../images/action/summary.png") center left no-repeat;
+	padding-top: 1px;
+	padding-left: 21px;
+}
+
+a.button.add.user span {
+	background: url("../images/action/user_add.png") center left no-repeat;
+	padding-top: 1px;
+	padding-left: 21px;
+}
+
+a.button.add.company span {
+	background: url("../images/action/add.png") center left no-repeat;
+	padding-top: 1px;
+	padding-left: 21px;
+}
+
+.actionButtons {
+    border-top: solid 1px #CCC;
+    border-bottom: solid 1px #CCC;
+    padding: 0.75em 0;
+    width: 100%;
+    height: 4em;
+    margin-bottom: 1.5em;
+    overflow: visible;
+}
+
+a.right {
+    margin-right: 0;
+}
+
+a.delete:hover {
+    color: #942723;
+}
+
+a.back {
+}
+
+a.edit {
+}
+
+a.submit {
+}
+
+a.cancel {
+}
+
+td.value input {
+    width: 300px;
+    height: 1.5em;
+    margin-top: -1px;
+}
+
+td.value textarea {
+    width: 300px;
+    height: 15em;
+    margin-top: -1px;
+    resize: none;
+}
+
+td.value select {
+    width: 300px;
+}
+
+.required {
+	background-image:url(../images/icon/RequiredField.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+	padding-right:10px;
+}
+/*
+ ================================================================================
+                                ActionTable
+ ================================================================================
+*/
+
+.actionDataTableAction.normalAlign {
+}
+.actionDataTableAction.normalAlign a {
+    margin-left: 5px;
+}
+
+.actionDataTableAction.rightAlign {
+    float: right;
+}
+.actionDataTableAction.rightAlign a {
+    margin-left: 5px;
+}
+.actionDataTableAction.leftAlign {
+    float: left;
+}
+.actionDataTableAction.leftAlign a {
+    margin-right: 5px;
+}
+
+.actionDataTableAction .actionEdit {
+	background: transparent url("../images/action/edit.png") top left no-repeat;
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+.actionDataTableAction .actionDelete {
+	background: transparent url("../images/action/delete.png") top left no-repeat;
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+.actionDataTableAction .actionAdd {
+	background: transparent url("../images/action/add.png") top left no-repeat;
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+.actionDataTableAction .actionView {
+	background: transparent url("../images/action/view.png") top left no-repeat;
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+.actionDataTableAction .actionNotificationPdf {
+	background: transparent url("../images/action/notif.png") top left no-repeat;
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+.actionDataTableAction .actionAgreementPdf {
+	background: transparent url("../images/action/agreement.png") top left no-repeat;
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+
+/*
+ ================================================================================
+                                AUTO COMPLETE
+ ================================================================================
+*/
+div.wicket-aa-container { 
+        border-width: 1px;
+        border-color: #cccccc;
+        border-style: solid;
+} 
+
+div.wicket-aa {
+        font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana;
+        font-size: 12px;
+        background-color: white;
+        padding: 2px;
+        text-align:left;
+}
+
+div.wicket-aa ul {
+        list-style:none;
+        padding: 2px;
+        margin:0;
+}
+
+div.wicket-aa ul li.selected {
+        background-color: #FFFF00;
+        padding: 2px;
+        margin:0;
+}
+
+/*
+ ================================================================================
+                                INFO/HELP
+ ================================================================================
+*/
+
+.help{
+position:relative;
+z-index:24;
+text-decoration:none;
+background: transparent url("../images/action/help.png") top left no-repeat;
+padding-right: 16px;
+padding-bottom: 1px;
+margin-left: 10px;
+bottom: 1px;
+}
+ 
+.help:hover{
+z-index:25;
+}
+ 
+.help span{
+display: none;
+}
+ 
+.help:hover span{
+display:block;
+position:absolute;
+top:2em; left:2em; width:15em;
+border:1px solid #6699CC;
+background-color:#EEE;
+color:#6699CC;
+text-align: left;
+font-weight:none;
+padding:5px;
+}
+
+/*
+ ================================================================================
+                                OTHER
+ ================================================================================
+*/
+
+img.photo,
+.photo img {
+    padding: 2px;
+    border: solid 1px #000;
+    box-shadow: 0px 0px 4px #666;
+    -moz-box-shadow: 0px 0px 4px #666;
+    -webkit-box-shadow: 0px 0px 4px #666;
+}
+
+span.breakLine {
+	display: block;
+}
+table.layout td.value .address {
+	margin-bottom: 5px;
+}
+table.layout td.value .contact {
+	margin-bottom: 5px;
+}
+
+/*
+ ================================================================================
+                                JQUERY
+ ================================================================================
+*/
+
+
+/* CHOOSEN */
+div.chzn-container {
+	vertical-align: middle;
+}

@@ -1,0 +1,61 @@
+/*
+================================================================================
+                                Login
+================================================================================
+*/
+
+#loginPage {
+    background: #FFF;
+}
+
+#loginPage #body {
+    text-align: center;
+}
+
+#loginPage #loginZone {
+    width: 370px;
+    margin: 15% auto 0px auto;
+    padding: 10px;
+}
+
+#loginPage h1 {
+    font-family: "Cuprum", Tahoma, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    background: url("../images/zenika-logo-mini.png") center left no-repeat;
+    padding-left: 41px;
+    color: #668;
+    border: none;
+    margin: 0;
+}
+
+#loginPage .loginForm {
+    display: block;
+    padding: 20px;
+    border: solid 1px #DDD;
+    background-color: #EEE;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#loginPage label, #loginPage .label {
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #668;
+    margin-top:5px;
+}
+
+#loginPage .login-message{
+	font-family: 'Cuprum', Georgia, serif;
+	font-size: 1em;
+	font-weight: normal;
+	color: red;
+}
+
+#loginPage .button{
+	text-align: center;
+	margin-top: 20px;
+}
